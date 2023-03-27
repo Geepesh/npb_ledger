@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  
+
+<style>
+  .myInp {
+background-image: url('/css/searchicon.png');
+background-position: 10px 10px;
+background-repeat: no-repeat;
+width: 100%;
+font-size: 16px;
+padding: 12px 20px 12px 40px;
+border: 1px solid #ddd;
+margin-bottom: 12px;
+border-radius: 20px;
+}
+button{
+  width : 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+border: 1px solid #ddd;
+margin-bottom: 12px;
+border-radius: 20px;
+
+}
+</style>
+</head>
+<body>
+<form action="/s" method="post">
+  <input class="myInp" placeholder="Party" type="text" name="party">
+  <select class="myInp" name="account">
+    <option value="narmada_pustak_bhandar">Narmada Pustak Bhandar</option>
+    <option value="maa_narmada_enterprises">Maa Narmada Enterprises</option>
+  </select>
+  <input class="myInp" placeholder="Contact No." type="number" name="number">
+  <input class="myInp" placeholder="Ammount" type="number" name="ammount">
+  <input class="myInp" type="date" name="date">
+  <input class="myInp" placeholder="Due Payment" type="number" name="duePayment">
+  
+  <button>></button>
+</form>
+</body>
+</html>
